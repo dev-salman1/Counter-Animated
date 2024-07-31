@@ -4,7 +4,7 @@ import React from "react";
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>index</Text>
+      
     </View>
   );
 };
