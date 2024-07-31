@@ -35,9 +35,6 @@ const App = () => {
     setCount(0);
   };
   const panGesture = Gesture.Pan()
-    .onTouchesUp(() => {
-      runOnJS(incrementCount)();
-    })
     .onUpdate((event) => {
       translateX.value = clamp(
         event.translationX,
